@@ -1,0 +1,313 @@
+<html lang="en"><head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>ccbp test reporter</title>
+            <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+	        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+            <script src="https://kit.fontawesome.com/522ee478c4.js" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.3.0/alpine.js"></script>
+            <script src="js/view.js"></script>
+        </head><body><div id="test-results">{
+  &quot;numFailedTestSuites&quot;: 1,
+  &quot;numFailedTests&quot;: 9,
+  &quot;numPassedTestSuites&quot;: 0,
+  &quot;numPassedTests&quot;: 0,
+  &quot;numPendingTestSuites&quot;: 0,
+  &quot;numPendingTests&quot;: 0,
+  &quot;numRuntimeErrorTestSuites&quot;: 0,
+  &quot;numTodoTests&quot;: 0,
+  &quot;numTotalTestSuites&quot;: 1,
+  &quot;numTotalTests&quot;: 9,
+  &quot;openHandles&quot;: [],
+  &quot;snapshot&quot;: {
+    &quot;added&quot;: 0,
+    &quot;didUpdate&quot;: false,
+    &quot;failure&quot;: false,
+    &quot;filesAdded&quot;: 0,
+    &quot;filesRemoved&quot;: 0,
+    &quot;filesRemovedList&quot;: [],
+    &quot;filesUnmatched&quot;: 0,
+    &quot;filesUpdated&quot;: 0,
+    &quot;matched&quot;: 0,
+    &quot;total&quot;: 0,
+    &quot;unchecked&quot;: 0,
+    &quot;uncheckedKeysByFile&quot;: [],
+    &quot;unmatched&quot;: 0,
+    &quot;updated&quot;: 0
+  },
+  &quot;startTime&quot;: 1692204061106,
+  &quot;success&quot;: false,
+  &quot;testResults&quot;: [
+    {
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 9,
+      &quot;numPassingTests&quot;: 0,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 1692204062824,
+        &quot;runtime&quot;: 861,
+        &quot;slow&quot;: false,
+        &quot;start&quot;: 1692204061963
+      },
+      &quot;skipped&quot;: false,
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0,
+        &quot;uncheckedKeys&quot;: []
+      },
+      &quot;testFilePath&quot;: &quot;/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Cricket Team Database&quot;
+          ],
+          &quot;duration&quot;: 6,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {
+                &quot;matcherResult&quot;: {
+                  &quot;actual&quot;: &quot;undefined&quot;,
+                  &quot;expected&quot;: &quot;function&quot;,
+                  &quot;name&quot;: &quot;toBe&quot;,
+                  &quot;pass&quot;: false
+                }
+              },
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \&quot;function\&quot;\nReceived: \&quot;undefined\&quot;&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \&quot;function\&quot;\nReceived: \&quot;undefined\&quot;\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:28:24)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \&quot;function\&quot;\nReceived: \&quot;undefined\&quot;\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:28:24)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Cricket Team DatabaseAn Express instance should be exported from the &#x27;app.js&#x27; file using the default export syntax&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;An Express instance should be exported from the &#x27;app.js&#x27; file using the default export syntax&quot;,
+          &quot;id&quot;: &quot;NJSCPXTWMS_TEST_1&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Cricket Team Database&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:33:8)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:33:8)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Cricket Team DatabaseThe GET request with path &#x27;/players/&#x27; should return the list of all the players in the team as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request with path &#x27;/players/&#x27; should return the list of all the players in the team as a response&quot;,
+          &quot;id&quot;: &quot;NJSCPXTWMS_TEST_2&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Cricket Team Database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:110:8)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:110:8)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Cricket Team DatabaseThe GET request with path &#x27;/players/:playerId/&#x27; should return the details of a particular player in the team as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request with path &#x27;/players/:playerId/&#x27; should return the details of a particular player in the team as a response&quot;,
+          &quot;id&quot;: &quot;NJSCPXTWMS_TEST_3&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Cricket Team Database&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:125:8)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:125:8)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Cricket Team DatabaseThe POST request with path &#x27;/players/&#x27; should return the &#x27;Player Added to Team&#x27; text as a response to the success of the request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The POST request with path &#x27;/players/&#x27; should return the &#x27;Player Added to Team&#x27; text as a response to the success of the request&quot;,
+          &quot;id&quot;: &quot;NJSCPXTWMS_TEST_4&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Cricket Team Database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of null&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of null\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:141:22)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of null\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:141:22)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Cricket Team DatabaseThe database should be updated on the post request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The database should be updated on the post request&quot;,
+          &quot;id&quot;: &quot;NJSCPXTWMS_TEST_5&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Cricket Team Database&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;put&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;put&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:152:8)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;put&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:152:8)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Cricket Team DatabaseThe PUT request with path &#x27;/players/:playerId/&#x27; should return &#x27;Player Details Updated&#x27; text as a response to the success of the request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The PUT request with path &#x27;/players/:playerId/&#x27; should return &#x27;Player Details Updated&#x27; text as a response to the success of the request&quot;,
+          &quot;id&quot;: &quot;NJSCPXTWMS_TEST_6&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Cricket Team Database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of null&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of null\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:168:22)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of null\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:168:22)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Cricket Team DatabaseThe database should be updated on the put request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The database should be updated on the put request&quot;,
+          &quot;id&quot;: &quot;NJSCPXTWMS_TEST_7&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Cricket Team Database&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;all&#x27; of null&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;all&#x27; of null\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:178:34)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;all&#x27; of null\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:178:34)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Cricket Team DatabaseThe DELETE request with path &#x27;/players/:playerId/&#x27; should return &#x27;Player Removed&#x27; text as a response to the success of the request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The DELETE request with path &#x27;/players/:playerId/&#x27; should return &#x27;Player Removed&#x27; text as a response to the success of the request&quot;,
+          &quot;id&quot;: &quot;NJSCPXTWMS_TEST_8&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Cricket Team Database&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;all&#x27; of null&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;all&#x27; of null\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:188:27)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;all&#x27; of null\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/.tests/index.test.js:188:27)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-4a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Cricket Team DatabaseThe database should be updated on the delete request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The database should be updated on the delete request&quot;,
+          &quot;id&quot;: &quot;NJSCPXTWMS_TEST_9&quot;
+        }
+      ],
+      &quot;failureMessage&quot;: &quot;  ● :::NJSCPXTWMS_TEST_SUITE_1:::Tests for Cricket Team Database › :::NJSCPXTWMS_TEST_1:::An Express instance should be exported from the &#x27;app.js&#x27; file using the default export syntax\n\n    expect(received).toBe(expected) // Object.is equality\n\n    Expected: \&quot;function\&quot;\n    Received: \&quot;undefined\&quot;\n\n      26 |\n      27 |   it(\&quot;:::NJSCPXTWMS_TEST_1:::An Express instance should be exported from the &#x27;app.js&#x27; file using the default export syntax\&quot;, () =&gt; {\n    &gt; 28 |     expect(typeof app).toBe(\&quot;function\&quot;);\n         |                        ^\n      29 |   });\n      30 |\n      31 |   it(\&quot;:::NJSCPXTWMS_TEST_2:::The GET request with path &#x27;/players/&#x27; should return the list of all the players in the team as a response\&quot;, (done) =&gt; {\n\n      at Object.&lt;anonymous&gt; (index.test.js:28:24)\n\n  ● :::NJSCPXTWMS_TEST_SUITE_1:::Tests for Cricket Team Database › :::NJSCPXTWMS_TEST_2:::The GET request with path &#x27;/players/&#x27; should return the list of all the players in the team as a response\n\n    TypeError: Cannot read property &#x27;get&#x27; of undefined\n\n      31 |   it(\&quot;:::NJSCPXTWMS_TEST_2:::The GET request with path &#x27;/players/&#x27; should return the list of all the players in the team as a response\&quot;, (done) =&gt; {\n      32 |     appInstance\n    &gt; 33 |       .get(\&quot;/players/\&quot;)\n         |        ^\n      34 |       .expect(200)\n      35 |       .expect([\n      36 |         {\n\n      at Object.&lt;anonymous&gt; (index.test.js:33:8)\n\n  ● :::NJSCPXTWMS_TEST_SUITE_1:::Tests for Cricket Team Database › :::NJSCPXTWMS_TEST_3:::The GET request with path &#x27;/players/:playerId/&#x27; should return the details of a particular player in the team as a response\n\n    TypeError: Cannot read property &#x27;get&#x27; of undefined\n\n      108 |   it(\&quot;:::NJSCPXTWMS_TEST_3:::The GET request with path &#x27;/players/:playerId/&#x27; should return the details of a particular player in the team as a response\&quot;, async (done) =&gt; {\n      109 |     appInstance\n    &gt; 110 |       .get(\&quot;/players/3/\&quot;)\n          |        ^\n      111 |       .expect(200)\n      112 |       .expect({\n      113 |         playerId: 3,\n\n      at Object.&lt;anonymous&gt; (index.test.js:110:8)\n\n  ● :::NJSCPXTWMS_TEST_SUITE_1:::Tests for Cricket Team Database › :::NJSCPXTWMS_TEST_4:::The POST request with path &#x27;/players/&#x27; should return the &#x27;Player Added to Team&#x27; text as a response to the success of the request\n\n    TypeError: Cannot read property &#x27;post&#x27; of undefined\n\n      123 |   it(\&quot;:::NJSCPXTWMS_TEST_4:::The POST request with path &#x27;/players/&#x27; should return the &#x27;Player Added to Team&#x27; text as a response to the success of the request\&quot;, async (done) =&gt; {\n      124 |     appInstance\n    &gt; 125 |       .post(\&quot;/players/\&quot;)\n          |        ^\n      126 |       .set(\&quot;Accept\&quot;, \&quot;application/json\&quot;)\n      127 |       .send({\n      128 |         playerName: \&quot;Ramu\&quot;,\n\n      at Object.&lt;anonymous&gt; (index.test.js:125:8)\n\n  ● :::NJSCPXTWMS_TEST_SUITE_1:::Tests for Cricket Team Database › :::NJSCPXTWMS_TEST_5:::The database should be updated on the post request\n\n    TypeError: Cannot read property &#x27;get&#x27; of null\n\n      139 |   it(\&quot;:::NJSCPXTWMS_TEST_5:::The database should be updated on the post request\&quot;, async () =&gt; {\n      140 |     expect(\n    &gt; 141 |       await database.get(`SELECT * FROM cricket_team WHERE player_id=12`)\n          |                      ^\n      142 |     ).toEqual({\n      143 |       player_id: 12,\n      144 |       player_name: \&quot;Ramu\&quot;,\n\n      at Object.&lt;anonymous&gt; (index.test.js:141:22)\n\n  ● :::NJSCPXTWMS_TEST_SUITE_1:::Tests for Cricket Team Database › :::NJSCPXTWMS_TEST_6:::The PUT request with path &#x27;/players/:playerId/&#x27; should return &#x27;Player Details Updated&#x27; text as a response to the success of the request\n\n    TypeError: Cannot read property &#x27;put&#x27; of undefined\n\n      150 |   it(\&quot;:::NJSCPXTWMS_TEST_6:::The PUT request with path &#x27;/players/:playerId/&#x27; should return &#x27;Player Details Updated&#x27; text as a response to the success of the request\&quot;, async (done) =&gt; {\n      151 |     appInstance\n    &gt; 152 |       .put(\&quot;/players/4/\&quot;)\n          |        ^\n      153 |       .set(\&quot;Accept\&quot;, \&quot;application/json\&quot;)\n      154 |       .send({\n      155 |         playerName: \&quot;Rahul\&quot;,\n\n      at Object.&lt;anonymous&gt; (index.test.js:152:8)\n\n  ● :::NJSCPXTWMS_TEST_SUITE_1:::Tests for Cricket Team Database › :::NJSCPXTWMS_TEST_7:::The database should be updated on the put request\n\n    TypeError: Cannot read property &#x27;get&#x27; of null\n\n      166 |   it(\&quot;:::NJSCPXTWMS_TEST_7:::The database should be updated on the put request\&quot;, async () =&gt; {\n      167 |     expect(\n    &gt; 168 |       await database.get(`SELECT * FROM cricket_team WHERE player_id=4`)\n          |                      ^\n      169 |     ).toEqual({\n      170 |       player_id: 4,\n      171 |       player_name: \&quot;Rahul\&quot;,\n\n      at Object.&lt;anonymous&gt; (index.test.js:168:22)\n\n  ● :::NJSCPXTWMS_TEST_SUITE_1:::Tests for Cricket Team Database › :::NJSCPXTWMS_TEST_8:::The DELETE request with path &#x27;/players/:playerId/&#x27; should return &#x27;Player Removed&#x27; text as a response to the success of the request\n\n    TypeError: Cannot read property &#x27;all&#x27; of null\n\n      176 |\n      177 |   it(\&quot;:::NJSCPXTWMS_TEST_8:::The DELETE request with path &#x27;/players/:playerId/&#x27; should return &#x27;Player Removed&#x27; text as a response to the success of the request\&quot;, async (done) =&gt; {\n    &gt; 178 |     const table = await database.all(\&quot;SELECT * FROM cricket_team\&quot;);\n          |                                  ^\n      179 |     appInstance\n      180 |       .delete(\&quot;/players/12/\&quot;)\n      181 |       .expect(200)\n\n      at Object.&lt;anonymous&gt; (index.test.js:178:34)\n\n  ● :::NJSCPXTWMS_TEST_SUITE_1:::Tests for Cricket Team Database › :::NJSCPXTWMS_TEST_9:::The database should be updated on the delete request\n\n    TypeError: Cannot read property &#x27;all&#x27; of null\n\n      186 |   });\n      187 |   it(\&quot;:::NJSCPXTWMS_TEST_9:::The database should be updated on the delete request\&quot;, async () =&gt; {\n    &gt; 188 |     expect(await database.all(`SELECT * FROM cricket_team`)).toEqual([\n          |                           ^\n      189 |       {\n      190 |         player_id: 1,\n      191 |         player_name: \&quot;Vasanth\&quot;,\n\n      at Object.&lt;anonymous&gt; (index.test.js:188:27)\n&quot;
+    }
+  ],
+  &quot;wasInterrupted&quot;: false
+}</div></body></html>
